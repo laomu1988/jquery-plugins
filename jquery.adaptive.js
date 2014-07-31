@@ -31,7 +31,7 @@
     width = width>minWidth?(width<maxWidth?width:maxWidth):minWidth;
     that.css({"width":width});
   }
-  $.fn.selfadative = function(options){
+  $.fn.adative = function(options){
     var defaults = {
       minWidth:40,//最小宽度
       maxWidth:200//最大宽度
